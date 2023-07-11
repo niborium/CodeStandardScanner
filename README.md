@@ -2,6 +2,22 @@
 Code Standard Scanner is a lightweight .NET (CLI) console application that analyzes TypeScript and TypeScriptX files for adherence to specified code standards. This is just an example and can be modified for your needs.  
 This can scan any projects for .TS and .TSX files and validate you following your set code standards. This can be modified for any file extenstions and with your specified code standards for you needs. Great for companies, teams or as individual the setup code standards.. just a basic scanning tool to scan and enfoce rules. Could be an simple alternative to ESLint/typescript-eslint for example.
 
+# Run the CodeStandardScanner locally on your machine for testing
+```
+dotnet run -- <folder-path>
+```
+For example:
+```
+dotnet run -- "C:\Projects\MyProject"
+```
+Note that the folder path should be enclosed in quotes if it contains spaces or special characters.
+
+The application will start running and perform the code standard scanning on the specified folder and its subfolders. The violations or confirmation of adherence to the code standards will be displayed in the console output.
+
+Make sure to replace <folder-path> with the actual path to the folder you want to scan. The application will recursively scan all .ts and .tsx files in the specified folder and its subfolders, checking for code standard violations.
+
+Remember that you need to have the .NET SDK installed on your machine to execute the dotnet run command.
+
 # Here's how you can publish your .NET console application as a standalone executable:
 
 1) Open a command prompt or terminal window.
@@ -45,3 +61,6 @@ Webpack Integration:
 4) Run the Webpack build process, and the scanner will automatically analyze the specified files during the build.
 
 By integrating the code scanner into your CI/CD pipeline or build tools, you can automate the code analysis and enforce code standards consistently across your projects. This helps maintain code quality and reduces the chance of introducing code violations during development.
+
+# NOTE!
+Please note this is an basic example for a CodeStandardScanner that can be easily modified and integrated with your CI/CD Pipeline or with Webpack for example. You need by yourself modify this code for your specific needs and requriements (code standards) and configure the implementation to suite your company or team.
