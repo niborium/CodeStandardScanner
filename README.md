@@ -1,6 +1,5 @@
 # CodeStandardScanner
-Code Standard Scanner is a lightweight .NET (CLI) console application that analyzes TypeScript and TypeScriptX files for adherence to specified code standards. This is just an example and can be modified for your needs.  
-This can scan any projects for .TS and .TSX files and validate you following your set code standards. This can be modified for any file extenstions and with your specified code standards for you needs. Great for companies, teams or as individuals to setup code standards scanning.. just a basic scanning tool to scan and enfoce rules. Could be an simple alternative to ESLint/typescript-eslint for example or could also be customized with advanced configure for your needs. This CLI is very flexible.
+Code Standard Scanner is a lightweight .NET (CLI) console application that analyzes TypeScript (TS) and TSX (.TSX) files for adherence to specified code standards. This is just an example and can be modified for your needs. This can scan any projects for .TS and .TSX files and validate you following your set code standards. This can be modified for any file extenstions and with your specified code standards for you needs. Great for companies, teams or as individuals to setup code standards scanning.. just a basic scanning tool to scan and enfoce rules. Could be an simple alternative to ESLint/typescript-eslint for example or could also be customized with advanced configure for your needs. This CLI is very flexible.
 
 # Run the CodeStandardScanner locally on your machine for testing
 ```
