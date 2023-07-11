@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xp5dlQAwE/37oSnLW28mx6wtTbjsEitSMZip1I65dw2UVxezASHl9IQENNRayXY8TRsaa9tKKm2efQP+cgxb3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ÄGARE\\Desktop\\gitrepos\\CodeStandardScanner\\CodeStandardScanner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ÄGARE\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.4\\microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
+    "C:\\Users\\ÄGARE\\.nuget\\packages\\microsoft.codeanalysis.common\\4.6.0\\microsoft.codeanalysis.common.4.6.0.nupkg.sha512",
+    "C:\\Users\\ÄGARE\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.6.0\\microsoft.codeanalysis.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\ÄGARE\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
+    "C:\\Users\\ÄGARE\\.nuget\\packages\\system.reflection.metadata\\7.0.0\\system.reflection.metadata.7.0.0.nupkg.sha512",
+    "C:\\Users\\ÄGARE\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\ÄGARE\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
