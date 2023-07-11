@@ -52,13 +52,14 @@ You can now distribute the standalone executable (CodeStandardScanner.exe) to ot
 4) Specify the code standards or guidelines to enforce.
 5) Set up the pipeline triggers to run the scanner on each code change or as needed.
 6) Define the behavior for handling scanner violations, such as failing the build or generating reports.
-Webpack Integration:
 
-# Add a custom Webpack plugin or loader to your Webpack configuration.
-1) Configure the plugin/loader to run the code scanner on the desired TypeScript/TypeScriptX files during the build process.
-2) Specify the code standards or guidelines to enforce within the plugin/loader configuration.
-3) Determine the action to take when scanner violations are detected, such as logging warnings, throwing errors, or generating reports.
-4) Run the Webpack build process, and the scanner will automatically analyze the specified files during the build.
+# Webpack Integration:
+
+1) Add a custom Webpack plugin or loader to your Webpack configuration.
+2) Configure the plugin/loader to run the code scanner on the desired TypeScript/TypeScriptX files during the build process.
+3) Specify the code standards or guidelines to enforce within the plugin/loader configuration.
+4) Determine the action to take when scanner violations are detected, such as logging warnings, throwing errors, or generating reports.
+5) Run the Webpack build process, and the scanner will automatically analyze the specified files during the build.
 
 By integrating the code scanner into your CI/CD pipeline or build tools, you can automate the code analysis and enforce code standards consistently across your projects. This helps maintain code quality and reduces the chance of introducing code violations during development.
 
